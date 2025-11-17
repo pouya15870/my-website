@@ -1,0 +1,172 @@
+@font-face {
+    font-family: BNazanin;
+    src: url(BNazanin.ttf);
+}
+
+body {
+    background-image: linear-gradient(135deg, #0f1526, #243b55);
+    direction: rtl;
+    font-family: BNazanin;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #0a1428cc;
+    padding: 15px;
+}
+
+.head-div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.head-img img {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #f9d342;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.head-img img:hover {
+    transform: scale(1.15) rotate(5deg);
+    box-shadow: 0 0 30px 5px #f9d342;
+}
+
+.head-txt h1 {
+    color: #f9d342;
+}
+
+.head-txt h2 {
+    color: aliceblue;
+}
+
+.head-div2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.head-div2 a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sec-div1 {
+    text-align: center;
+    padding: 60px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background: #ffffff0d;
+}
+
+.sec-div1 h1 {
+    color: #f9d342;
+}
+
+.sec-div1 h3 {
+    color: white;
+}
+
+.sec-div2 {
+    margin-top: 80px;
+}
+
+.skills h1 {
+    color: white;
+    text-align: center;
+}
+
+.skills-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.skills-card {
+    padding: 20px;
+    width: 220px;
+    background: #ffffff0d;
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+    transition: all 0.5s ease;
+}
+
+.skills-card img {
+    width: 220px;
+}
+
+.skills-card:hover {
+    transform: translatey(-10px);
+    box-shadow: 0 2px 15px #f9d342;
+}
+
+.sec-div3 {
+    margin-top: 80px;
+}
+
+.pro-txt {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.pro-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.pro-card {
+    background: #ffffff0d;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.pro-card img {
+    width: 420px;
+    height: 180px;
+    object-fit: cover;
+    border: 1px;
+}
+
+.content{
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+}
+
+.content a{
+    color: #f9d342;
+    padding: 10px;
+    border: 2px solid #f9d342;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+footer{
+    background: #0a1428cc;
+    margin-top: 100px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer span{
+    color: #f9d342;
+}
